@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Form</title>
+	<style>
+		body{
+			background: url(america.jpg!d);
+			background-repeat: no-repeat;
+			background-size: cover;
+			background-position: absolute;
+		}
+
+
+		.textdiv{
+	background-color: rgba(0,0,0,0.65);
+    position: absolute;
+    height: 100%;
+ 	width: 100%;
+ 	font-family: Verdana, Geneva, sans-serif;
+ 	text-align: center;
+ 	color: #FFF;
+ 	bottom:0px;
+ 	top:0px;
+ 	right: 0px;
+    z-index: 1;
+}
+button{
+	width: 100px;
+	height: 40px;
+	background-color: purple;
+	color: white;
+	margin-left: 700px;
+	border: 1px solid purple;
+		border-radius: 12px;
+}
+	form{
+		font-size: 20px;
+		text-align: left;
+		margin-top: 200px;
+		width: 700px;
+		margin-left: 400px;
+		
+	}
+
+
+
+	</style>
+</head>
+<body>
+<div class="textdiv" >
+	<form>
+		<fieldset>
+			<legend style="text-align: left;">REGISTRATION FORM</legend>
+			Enter your first name:  <input type="text" id="fname" name="fname" placeholder="First name" onblur="myFunction()"><br><br>
+			Enter your last name:  <input type="text" id="lname" name="lname" placeholder="Last name" onblur="myFunction1()"><br><br>
+			Enter your phone number:  <input type="text" id="phone" name="phone" placeholder="Phone" onblur="myFunction2()"><br><br>
+			Enter your city name:  <input type="text" id="city" name="city" placeholder="City name"><br><br>
+			<center><textarea rows="4" cols="50" id="Address" placeholder="Enter your Address" name="Address" onblur="myfunction3()"></textarea></center><br><br>
+			
+				Select Your gender:  
+				<input type="radio" name="male">male
+				<input type="radio" name="female">female<br><br>
+			
+			<button>Next</button>
+		</fieldset>
+	</form>
+</div>
+
+
+<script>
+function myFunction() {
+  var x = document.getElementById("fname");
+  x.value = x.value.toUpperCase();
+}
+
+function myFunction1(){
+	var y = document.getElementById("lname");
+	y.value = y.value.toUpperCase()
+}
+
+function myFunction2(){
+	var x = document.getElementById("phone");
+	x.value = '+91 ' + x.value; 
+}
+
+function myfunction3(){
+	var t = document.getElementById("Address");
+	t.value = t.value.toLowerCase();
+}
+</script>
+
+
+
+</body>
+</html>
