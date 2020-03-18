@@ -1,0 +1,52 @@
+div{
+	color: white;
+	font-size: 24px;
+	text-align: center;
+}
+
+footer{
+	font-size: 24px;
+	color: white;
+	text-align: center;
+}
+
+
+h1 { color: white; font-family: "sans-serif",cursive; font-size: 60px; line-height: 160px; font-weight: normal; margin-bottom: 0px; margin-top: 40px; text-align: center; text-shadow: 0 1px 1px #fff; }
+h2{ color: #b48608; font-family: 'Droid serif', serif; font-size: 36px; font-weight: 400; font-style: italic; line-height: 44px; margin: 0 0 12px; text-align: center; }
+
+
+
+.btn{
+	background-color: #000000;
+	border: none;
+	margin-left: 5px;
+	transition: transform .2s;
+}
+
+
+.btn:hover{
+	transform: scale(1.2);
+}
+
+table,th,tr{
+	border: 1px solid white;
+	color: white;
+	font-size: 24px;
+	text-align: left;
+    border-collapse: collapse;
+	width: 900px;
+	padding-left: 10px;
+}
+
+td{
+	border: 1px solid white;
+	color: white;
+	 border-collapse: collapse;
+	text-align: left;
+	padding-left: 10px;
+}
+
+audio{
+	background-color: black;
+	color: white;
+}
