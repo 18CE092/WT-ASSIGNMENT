@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style>
+		
+input[type=text] {
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #4C4A48;
+    color: "#4C4A48";
+    font-size: 16px;
+}
+
+form{
+	color: white;
+	font-size: 20px;
+}
+
+.btn1{
+	border-radius: 12px;
+	background-color: green;
+	color: white;
+	padding: 15px 32px;
+	text-align:center;
+	font-size: 15px;
+	border: none;
+}
+
+textarea[type=text]{
+  color: white;
+}
+
+textarea{
+	background: transparent;
+    border: none;
+    border-bottom: 1px solid #4C4A48;
+    color: "#4C4A48";
+}
+	</style>
+	<title>Workshop on WEB TECH</title>
+</head>
+<body bgcolor="black">
+<div style="background: url(code.jpg);background-repeat: no-repeat;background-size:cover;" >
+	<img style="float: left;" src="html5.png" width="300" height="300"><img style="margin-left: 870px;" src="css.png" width="300" height="300">
+</div>
+<div style="background: url(bg1.jfif);background-repeat: no-repeat;background-size: cover;">
+<center>
+	
+<div style="width: 600px;height: 900px;border: 1px solid black;background-color: black;">
+<img src="TITLE.jpg" width="100%" height="200px"><br>
+<form method="POST" action="db.php">
+	Your First Name: &nbsp;&nbsp;&nbsp; <input type="text" name="fname" placeholder="First Name"><br><br><br>
+	Your Last Name: &nbsp;&nbsp;&nbsp; <input type="text" name="lname" placeholder="Last Name"><br><br><br>
+	Your Email: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input type="text" width="100px" name="email" placeholder="e.g.xyz12@gmail.com"><br><br><br>
+	Your Phone:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="phone" placeholder="Phone no."><br><br><br>
+	Select Your Country&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	<select name="country">
+    <option value="India">India</option>
+    <option value="America">America</option>
+    <option value="Canada">Canada</option>
+    <option value="Australia">Australia</option>
+    <option value="Other">Other</option>
+    </select><br><br><br>
+    You are:<br><br>
+     <input type="radio" id="student" name="pro" value="student">
+  <label for="male">Student</label>
+  <input  type="radio" id="Faculty Member" name="pro" value="Faculty Member">
+  <label for="female">Faculty Member</label>
+  <input type="radio" id="professional" name="pro" value="professional">
+  <label for="other">Professional</label>
+  <input type="radio" id="company" name="pro" value="company">
+  <label for="other">Company/Firm Representative</label>
+  <br><br><br>
+  <textarea name="reason" placeholder="Reason for Participating in Workshop" rows="5" cols="50"></textarea><br><br><br>
+  <text>copy of your responses will be emailed to you</text><br><br>
+  <button class="btn1" type="Submit">SUBMIT</button><br>
+ 
+
+
+</form>
+</div>
+</center>
+</div>
+</body>
+</html>
